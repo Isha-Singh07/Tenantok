@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/bone">
+    <TextView
+        android:id="@+id/complaintshead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bone"
+        android:fontFamily="@font/amarante"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="PAYMENT SECTION"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/img_5" />
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImageView"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/totalDues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif"
+            android:text="Total Dues: Rs.15000"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/totalExpensesTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/totalDues"
+            android:layout_marginBottom="8dp"
+            android:text="Total Expenses: Rs. 30000"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/securityDepositsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/totalExpensesTextView"
+            android:layout_marginBottom="8dp"
+            android:text="Security Deposits: Rs. 20000"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/rentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/securityDepositsTextView"
+            android:layout_marginBottom="16dp"
+            android:text="Rent: Rs. 15000"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/payNowButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rentTextView"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="#6C1E1E"
+            android:text="PAY NOW" />
+    </RelativeLayout>
+</RelativeLayout>

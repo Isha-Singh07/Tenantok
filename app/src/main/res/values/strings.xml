@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">tenantok</string>
+    <string name="hello_john_doe_your_are_member_since_2_days">Hello! John Doe; Your are member since 2 days!</string>
+</resources>
